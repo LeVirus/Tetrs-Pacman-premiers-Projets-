@@ -1,0 +1,5 @@
+-lSDLmain -lSDL
+-lSDL_image # pour SDL_image
+-lSDL_ttf # pour SDL_ttf
+-lSDL_mixer # pour SDL_mixer
+-lfmod
