@@ -22,9 +22,9 @@ Niveau::Niveau()
 
 		FMOD_System_Create(&system);
 		FMOD_System_Init(system, 2, FMOD_INIT_NORMAL, NULL);
-		FMOD_System_CreateSound(system, "Sons/pacDie.mp3", FMOD_CREATESAMPLE, 0, &pacMeur);
+		FMOD_System_CreateSound(system, "Sons/pacdie.wav", FMOD_CREATESAMPLE, 0, &pacMeur);
 		FMOD_System_CreateSound(system, "Sons/fantomeBouffe.mp3", FMOD_CREATESAMPLE, 0, &fantomeBouffe);
-		FMOD_System_CreateSound(system, "Sons/pointSpe.mp3", FMOD_CREATESAMPLE, 0, &pointSpecial);
+		FMOD_System_CreateSound(system, "Sons/pointSpe.wav", FMOD_CREATESAMPLE, 0, &pointSpecial);
 		FMOD_System_CreateSound(system, "Sons/fantomeOutBleu.WAV", FMOD_CREATESAMPLE, 0, &fantomeOut);
 		FMOD_System_CreateSound(system, "Sons/glitch.mp3", FMOD_SOFTWARE | FMOD_2D | FMOD_CREATESTREAM|FMOD_LOOP_NORMAL, 0, &musique);
 		FMOD_Sound_SetLoopCount(musique, -1);
