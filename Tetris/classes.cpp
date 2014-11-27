@@ -38,7 +38,7 @@ zoneJeu::zoneJeu()
 		
 		FMOD_System_Create(&system);
 		FMOD_System_Init(system, 2, FMOD_INIT_NORMAL, NULL);
-		FMOD_System_CreateSound(system, "Musiques/pacLigne.wav", FMOD_CREATESAMPLE, 0, &ligneSon);
+		FMOD_System_CreateSound(system, "Musiques/pacligne.mp3", FMOD_CREATESAMPLE, 0, &ligneSon);
 		FMOD_System_CreateSound(system, "Musiques/pacVitesse.mp3", FMOD_CREATESAMPLE, 0, &tempsSon);
 		FMOD_System_CreateSound(system, "Musiques/FEZ.mp3", FMOD_SOFTWARE | FMOD_2D | FMOD_CREATESTREAM|FMOD_LOOP_NORMAL, 0, &musique);
 		FMOD_Sound_SetLoopCount(musique, -1);
