@@ -1,7 +1,7 @@
-#include "SDL/SDL.h"
+#include <SDL/SDL.h>
 #include <SDL/SDL_ttf.h>
 #include <SDL/SDL_image.h>
-#include <fmod.h>
+#include <fmodex/fmod.h>
 #include <sstream>
 #include "constante.h"
 #include <iostream>
